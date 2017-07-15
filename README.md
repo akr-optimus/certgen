@@ -26,9 +26,11 @@ emailAddress        = test@email.address
 
 `$ ./certgen.sh`
 
+`$ ./certgen.sh --read` to read the generated certificate file
+
 
 ### Output
 
-The certificate and key are stored in `.crt` and `.key` files respectively.
+The certificate and key are stored in `.crt` and `.key` files respectively matching the `Common Name`.
 
 
